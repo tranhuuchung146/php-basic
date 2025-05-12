@@ -349,7 +349,7 @@
 <?php
     $str = "Tran Huu Chung";
     echo strrev($str);
-    // gnuH yuH mahP
+    // gnuhC uuH narT
 ?>
 ```
 
@@ -372,13 +372,6 @@
 ?>
 ```
 
-***ucwords($string) - Chuyển chữ cái đầu tiên của mỗi từ thành in hoa***
-
-***strtoupper($string) - Chuyển toàn bộ chuỗi thành chữ in hoa***
-
-***strtolower($string) - Chuyển toàn bộ chuỗi thành chữ in thường***
-
-***str_repeat($string, $repeat) - Lặp lại chuỗi***
 ```php
 <?php
     $str = "Tran Huu Chung";
@@ -386,18 +379,6 @@
     // Tran Huu ChungTran Huu ChungTran Huu ChungTran Huu ChungTran Huu ChungTran Huu ChungTran Huu ChungTran Huu ChungTran Huu ChungTran Huu Chung
 ?>
 ```
-
-***strcmp($string) - So sánh các chuỗi***
-
-***substr($string,start,length) - Hiển thị 1 phần của chuỗi***
-
-***trim($string) - Xóa ký tự ở đầu và cuối của chuỗi***
-
-### Array Functions
-
-***count($array) - Đếm phần tử trong mảng***
-
-***array_values($array) - Đưa về dạng mảng tuần tự***
 ```php
 <?php
     $arr = [
@@ -469,10 +450,6 @@
     */
 ?>
 ```
-
-***array_search($keyword,$array) - Tìm kiếm giá trị của mảng và trả về nếu có***
-
-***array_slice($array,$begin,$lenght) - Lấy ra phần tử theo vị trí bắt đầu và số lượng***
 ```php
 <?php
     $arr = [
@@ -493,14 +470,6 @@
      */
 ?>
 ```
-
-***array_unique($array) - Loại bỏ phần tử trùng nhau trong mảng***
-
-***array_key_exists($key,$array) - Kiểm tra $key có tồn tại trong mảng không***
-
-***in_array($value,$array) - Kiểm tra $value có tồn tại trong mảng không***
-
-***is_array($array) - Kiểm tra xem có phải  mảng hay không***
 ### File Handling (Thao tác với file)
 #### fopen()
 * Hàm `fopen()` được dùng để mở 1 tệp với 2 tham số, tham số thứ nhất chứa tên tệp và tham số thứ
