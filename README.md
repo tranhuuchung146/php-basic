@@ -220,8 +220,6 @@
       ![](./img/toantutanggiam.png)
     * Toán tử logic:
       ![](./img/toantulogic.png)
-    * Toán tử chuỗi.
-    * Toán tử mảng.
 ### Control Structures
 #### if-else statement (Câu lệnh điều kiện)
 ***if...else***
